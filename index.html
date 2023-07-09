@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Modal Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="openModal()">Open Modal</button>
+
+    <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Modal Window</h2>
+            <p>This is a custom modal window.</p>
+        </div>
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
